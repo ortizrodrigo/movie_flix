@@ -6,9 +6,15 @@
 
 ## 📱 Preview
 
-- ![Home Screen](assets/images/home.png)
-- ![Details Screen](assets/images/details.png)
-- ![Search Screen](assets/images/search.png)
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+
+  <img src="assets/images/home.png" alt="Home Screen" width="200" />
+
+  <img src="assets/images/details.png" alt="Details Screen" width="200" />
+
+  <img src="assets/images/search.png" alt="Search Screen" width="200" />
+
+</div>
 
 ---
 
@@ -40,3 +46,4 @@
    ```bash
    git clone https://github.com/ortizrodrigo/movie_flix.git
    cd movie_flix
+   ```
