@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# 🎬 Movie Flix
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Movie Flix** is a clean, intuitive React Native app for browsing trending and top-rated movies using the [TMDB API](https://www.themoviedb.org/documentation/api). Built with **Expo**, the app features smooth navigation, dynamic search, and persistent search storage powered by **Appwrite** — all wrapped in a modern mobile UI that mirrors today’s top streaming apps.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Preview
+
+- ![Home Screen](assets/images/home.png)
+- ![Details Screen](assets/images/details.png)
+- ![Search Screen](assets/images/search.png)
+
+---
+
+## 🚀 Features
+
+- 🔍 **Search and browse** trending or top-rated movies
+- 📄 **View movie details** like synopsis, release date, and rating
+- 💾 **Store search queries** in Appwrite for analytics and personalized content
+- 📊 **Display trending searches** to reflect user interest dynamically
+- ⚙️ **File-based routing** for organized navigation
+- 🎨 **Clean, responsive UI** with modular React Native components
+
+---
+
+## 🛠 Tech Stack
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [TMDB API](https://www.themoviedb.org/)
+- [React Navigation](https://reactnavigation.org/)
+- [Appwrite](https://appwrite.io/) — backend-as-a-service for storing search queries
+
+---
+
+## ⚙️ Getting Started
+
+1. **Clone the repository**
 
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/ortizrodrigo/movie_flix.git
+   cd movie_flix
